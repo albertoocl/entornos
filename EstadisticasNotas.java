@@ -104,6 +104,7 @@ public class InventarioProductos {
                     System.out.println("Cantidad en stock: " + cantidades[i]);
                     System.out.println("------------------------");
                     valorTotal += precios[i] * cantidades[i];
+                    valorTotal += precios[i] / cantidades[i];
                 }
                 System.out.println("Valor Total del Inventario: $" + valorTotal);
             }
